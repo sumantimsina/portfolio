@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "heroku-postbuild": "npm run build",
+    "dev": "next",
     "build": "next build && next export",
-    "start": "next start -p 3000"
+    "start": "next start -p $PORT"
   },
   "dependencies": {
     "next": "10.2.3",
